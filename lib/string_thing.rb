@@ -1,7 +1,7 @@
-module StringThing
+class StringThing
   DELIMITER = /[\n,]/
 
-  def self.parse(input)
+  def parse(input)
     delimiter = DELIMITER
 
     if input[0..1] == '//'
