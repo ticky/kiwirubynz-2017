@@ -1,6 +1,6 @@
 require 'string_thing'
 
-RSpec.describe StringThing do
+RSpec.describe "StringThing" do
   describe 'parse' do
     it 'returns 0 for an empty string' do
       expect(StringThing.parse('')).to eql(0)
