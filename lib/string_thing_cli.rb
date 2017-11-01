@@ -7,5 +7,3 @@ class StringThingCLI
     STDOUT.puts StringThing.new.parse(STDIN.read)
   end
 end
-
-StringThingCLI.new.main

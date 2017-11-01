@@ -2,6 +2,7 @@ require 'string_thing'
 
 RSpec.describe 'StringThing' do
   subject(:calculator) { StringThing.new }
+
   describe 'parse' do
     it 'returns 0 for an empty string' do
       expect(calculator.parse('')).to eql(0)
