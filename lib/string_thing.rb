@@ -1,5 +1,7 @@
 module StringThing
+  DELIMITER = /[\n,]/
+
   def self.add(input)
-    input.split(/[\n,]/).map(&:to_i).sum
+    input.split(DELIMITER).map(&:to_i).sum
   end
 end
