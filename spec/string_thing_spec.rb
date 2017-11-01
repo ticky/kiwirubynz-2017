@@ -20,5 +20,10 @@ RSpec.describe StringThing do
       expect(StringThing.add("1,2\n3")).to eql(6)
       expect(StringThing.add("1\n2,3")).to eql(6)
     end
+
+    it 'supports overriding the delimiter' do
+      expect(StringThing.add("//\b\n1\b2\b3")).to eql(6)
+      expect(StringThing.add("//lolhi\n5lolhi6lolhi7lolhi8")).to eql(26)
+    end
   end
 end
