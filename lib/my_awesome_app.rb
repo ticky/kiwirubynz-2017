@@ -7,9 +7,9 @@ module MyAwesomeApp
       {
         some_models:
           [
-           { id: 1, url:'/show/1', information: "i don't care about" },
-           { id: 2, url:'/show/2', information: "i don't care about" },
-           { id: 3, url:'/show/3', information: "i don't care about" },
+            { id: 1, url: '/show/1', information: "i don't care about" },
+            { id: 2, url: '/show/2', information: "i don't care about" },
+            { id: 3, url: '/show/3', information: "i don't care about" },
           ],
         actions: [:index, :show],
       }
